@@ -1,11 +1,14 @@
 #app {
+  margin-bottom: 20px;
   background-color: rgb(68, 123, 250);
   height: 100vh;
   color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #app #navbar {
   padding: 1.3rem ;
-  background-color: rgb(4, 11, 58);
+  background-color: rgb(13, 20, 65);
+  /* background-color: rgb(7, 7, 240); */
 
 }
 #app #navbar h2 {
@@ -15,10 +18,10 @@
   margin: 0.5rem;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 #container #progress {
-  width: 45rem;
+  width: 40rem;
   height: 85vh;
 }
 #container #chart {
@@ -27,13 +30,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 85vh;
+  height: 80vh;
 }
 #container #chart #inner-chart {
-  width: 60%;
+  width:70%;
   margin: 2rem;
   padding: 2rem;
-  filter: drop-shadow(1px 1px 20px yellow);
+  /* filter: drop-shadow(1px 1px 20px yellow); */
 }
 
 #inner-chart p {
@@ -49,7 +52,7 @@
 input {
   width: 100%;
   margin: 0.5rem 0rem;
-  filter: drop-shadow(1px 1px 5px yellow);
+  /* filter: drop-shadow(1px 1px 5px yellow); */
 }
 
 .value {

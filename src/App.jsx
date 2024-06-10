@@ -106,7 +106,7 @@ function App() {
 
           <div class="value">
             <fieldset>
-              <legend>Tenure</legend>
+              <legend style={{color:"black"}}>Tenure</legend>
               <select
                 value={tenure}
                 onChange={(e) => {
